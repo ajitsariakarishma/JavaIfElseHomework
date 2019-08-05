@@ -1,6 +1,6 @@
-/*This program  to ask user to enter any two number and a operator (+, -, /, *)
- ﬁnd addition, subtraction, multiplication and division according to their symbol
- */
+//This program  to ask user to enter any two number and a operator (+, -, /, *)
+ //ﬁnd addition, subtraction, multiplication and division according to their symbol
+
 
 import java.util.Scanner;
 
