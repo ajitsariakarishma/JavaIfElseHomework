@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class CityNames {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);  //object of Scanner class to enable user input
-        System.out.print("Enter any letter in lowercase: ");
+        System.out.print("Enter any letter (a-f): ");// helps user to make a valid entry
         char letter = scanner.next().charAt(0); //User enters a letter
         if(letter =='a'|| letter =='A'){
             System.out.print("Name of the city starting with " +letter+ " is Ahmedabad");
