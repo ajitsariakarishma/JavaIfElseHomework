@@ -11,17 +11,17 @@ public class CityNames {
         Scanner scanner = new Scanner(System.in);  //object of Scanner class to enable user input
         System.out.print("Enter any letter in lowercase: ");
         char letter = scanner.next().charAt(0); //User enters a letter
-        if(letter =='a'){
+        if(letter =='a'|| letter =='A'){
             System.out.print("Name of the city starting with " +letter+ " is Ahmedabad");
-        }else if(letter=='b'){
+        }else if(letter=='b'||letter == 'B'){
             System.out.print("Name of the city starting with " +letter+ " is Bangkok");
-        }else if(letter=='c'){
+        }else if(letter=='c'||letter == 'C'){
             System.out.print("Name of the city starting with " +letter+ " is Cardiff");
-        }else if(letter=='d'){
+        }else if(letter=='d'||letter == 'D'){
             System.out.print("Name of the city starting with " +letter+ " is Dartford");
-        } else if (letter == 'e') {
+        } else if (letter == 'e'|| letter == 'E') {
             System.out.print("Name of the city starting with " +letter+ " is Edinburgh");
-        }else if(letter=='f'){
+        }else if(letter=='f' || letter == 'F'){
             System.out.print("Name of the city starting with " +letter+ " is Florence");
         }else{
             System.out.print("Invalid Entry!");
